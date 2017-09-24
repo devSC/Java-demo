@@ -3,6 +3,7 @@ import com.phone.CellPhone;
 import com.phone.Psp;
 import com.phone.SmartPhone;
 import com.wilson.Generic;
+import com.wilson.Serialization;
 import com.wilson.Telephone;
 
 //包名 需全部为小写。 可以通过包名来区分
@@ -44,7 +45,8 @@ public class Main {
 //        testChar();
 //        testStringBuilder();
 //        testDate();
-        testGenerics();
+//        testGenerics();
+        testSerializable();
     }
 
     public static void testAbstractClass() {
@@ -218,5 +220,9 @@ public class Main {
     public static void testGenerics() {
         Generic generic = new Generic();
         generic.test();
+    }
+
+    public static void testSerializable() {
+        Serialization.testSerializable();
     }
 }
