@@ -2,6 +2,7 @@ import com.interfaceDemo.IPlayGame;
 import com.phone.CellPhone;
 import com.phone.Psp;
 import com.phone.SmartPhone;
+import com.wilson.Generic;
 import com.wilson.Telephone;
 
 //包名 需全部为小写。 可以通过包名来区分
@@ -42,7 +43,8 @@ public class Main {
 //        testInterface();
 //        testChar();
 //        testStringBuilder();
-        testDate();
+//        testDate();
+        testGenerics();
     }
 
     public static void testAbstractClass() {
@@ -209,7 +211,12 @@ public class Main {
 
         //Collection
         //ArrayList
-        Map
+        //Map
 
+    }
+
+    public static void testGenerics() {
+        Generic generic = new Generic();
+        generic.test();
     }
 }
