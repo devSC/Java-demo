@@ -2,13 +2,10 @@ import com.interfaceDemo.IPlayGame;
 import com.phone.CellPhone;
 import com.phone.Psp;
 import com.phone.SmartPhone;
-import com.wilson.Generic;
-import com.wilson.Serialization;
-import com.wilson.Telephone;
+import com.wilson.*;
 
 //包名 需全部为小写。 可以通过包名来区分
 //import com.spark.Telephone;
-import com.wilson.IPhone;
 
 import java.lang.reflect.Array;
 import java.text.ParseException;
@@ -46,7 +43,8 @@ public class Main {
 //        testStringBuilder();
 //        testDate();
 //        testGenerics();
-        testSerializable();
+//        testSerializable();
+        testUrl();
     }
 
     public static void testAbstractClass() {
@@ -224,5 +222,9 @@ public class Main {
 
     public static void testSerializable() {
         Serialization.testSerializable();
+    }
+
+    public static void testUrl() {
+        URLDemo.test();
     }
 }
