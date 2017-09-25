@@ -44,7 +44,8 @@ public class Main {
 //        testDate();
 //        testGenerics();
 //        testSerializable();
-        testUrl();
+//        testUrl();
+        testThread();
     }
 
     public static void testAbstractClass() {
@@ -226,5 +227,9 @@ public class Main {
 
     public static void testUrl() {
         URLDemo.test();
+    }
+
+    public static void testThread() {
+        ThreadDemo.test();
     }
 }
