@@ -6,6 +6,7 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+//MORE: https://guides.codepath.com/android/Repeating-Periodic-Tasks#alarmmanager
 public class ScheduleExample {
     final static DateFormat fmt = DateFormat.getTimeInstance(DateFormat.LONG);
     static Integer times = 0;

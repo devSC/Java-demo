@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838c08c9-8d75-44dc-aef0-6ed405748aa4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wilson/ScheduleExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wilson/ScheduleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wilson/ScheduleExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +31,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="744" />
+          <entry key="java" value="754" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="744" />
+          <entry key="JAVA" value="754" />
         </counts>
       </usages-collector>
     </session>
@@ -94,9 +91,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wilson/ScheduleExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="184">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
               </folding>
@@ -277,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542883817150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542883884841" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -391,12 +389,12 @@
       <workItem from="1505879860950" duration="1344000" />
       <workItem from="1505888215313" duration="20176000" />
       <workItem from="1506213804830" duration="11145000" />
-      <workItem from="1542882622183" duration="1192000" />
+      <workItem from="1542882622183" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34556000" />
+    <option name="totallyTimeSpent" value="34624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,9 +673,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wilson/ScheduleExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="184">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#537#538#0" expanded="true" />
           </folding>
