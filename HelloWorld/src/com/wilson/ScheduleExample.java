@@ -14,7 +14,7 @@ public class ScheduleExample {
 
     public static void main(String[] args) {
         ScheduledThreadPoolExecutor sch = new ScheduledThreadPoolExecutor(5);
-
+        sch.shutdown();
         Runnable oneShotTask = new Runnable() {
             @Override
             public void run() {
